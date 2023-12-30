@@ -46,10 +46,10 @@ npm start
 ## User Authentication
 iNotebook includes user authentication to provide a personalized experience for each user.
 
-Contributing
+## Contributing
 Feel free to contribute to the project by submitting issues or pull requests. Your feedback and contributions are highly appreciated!
 
-Acknowledgments
+## Acknowledgments
 Thanks to the React community for providing a powerful framework.
 Special thanks to Bootstrap for simplifying the design process.
 Appreciation to the MongoDB team for their flexible and scalable database solution.
