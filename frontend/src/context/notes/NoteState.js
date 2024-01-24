@@ -56,7 +56,7 @@ const NoteState = (props) => {
     // Edit a note
     const editNote = async (id, title, description, tag) => {
 
-        const response = await fetch(`${host}/updatenote/${id}`, {
+        await fetch(`${host}/updatenote/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

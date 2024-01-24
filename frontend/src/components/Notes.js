@@ -21,7 +21,7 @@ const Notes = (props) => {
         }else{
             navigate("/login");
         }
-    }, [])
+    }, [getAllNotes, navigate])
 
     const updateNote = (currentNote) => {
         refOpen.current.click();
